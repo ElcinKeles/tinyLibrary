@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>List of Books</title>    
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.4.min.css" />
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/jquery.mobile-1.4.4.min.js"></script>
+        
+    <style>
+           h1,h2,h3 {
+    
+               color: #009acd;
+}
+        p, {
+    
+               color: #1c1c1c;
+}        
+ </style> 
+        
+</head>
+<body>
+ <a href="index.html" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-home">Back to Menu</a>
+    <center><h1>List of Books</h1></center>
+
+<table data-role="table" id="movie-table-custom" data-mode="reflow" class="movie-list ui-responsive">
+  <thead>
+    <tr>
+      <th data-priority="1"></th>
+      <th style="width:40%">Title</th>
+      <th data-priority="2">Author</th>
+      <th data-priority="3"><abbr title="Inernational Standard Book Number"></abbr>ISBN</th>
+      <th data-priority="4">Edition</th>
+      <th data-priority="5">Publication Date</th>
+      <th data-priority="6">Publication Place</th>
+      <th data-priority="7">Publisher</th>
+      <th data-priority="8">Physical Description</th>
+        
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+        
+      <td class="title"><a href="http://katalog.hacettepe.edu.tr/client/en_US/defaulteng/search/detailnonmodal/ent:$002f$002fSD_ILS$002f308$002fSD_ILS:308573/ada?qu=dan+brown&qf=GAUTHOR%09Author%09Brown%2C+Dan.%09Brown%2C+Dan.+%7C%7C+Brown%2C+Dan%2C+1964-%09Brown%2C+Dan%2C+1964-+%7C%7C+Brown%2C+Dan%09Brown%2C+Dan+%7C%7C+Brown%2C+Dan+L.%09Brown%2C+Dan+L.&qf=FORMAT%09Format%09BOOK%09Books" data-rel="external">Cehennem</a></td>
+      <td>Brown,Dan</td>
+      <td>9789752116832</td>
+      <td>9th ed.</td>
+      <td>2013</td>
+      <td>İstanbul</td>
+      <td>Altın Kitaplar</td>
+      <td>573 p.</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td class="title"><a href="http://katalog.hacettepe.edu.tr/client/en_US/defaulteng/search/detailnonmodal/ent:$002f$002fSD_ILS$002f130$002fSD_ILS:130869/ada?qu=dan+brown&qf=GAUTHOR%09Author%09Brown%2C+Dan.%09Brown%2C+Dan.+%7C%7C+Brown%2C+Dan%2C+1964-%09Brown%2C+Dan%2C+1964-+%7C%7C+Brown%2C+Dan%09Brown%2C+Dan+%7C%7C+Brown%2C+Dan+L.%09Brown%2C+Dan+L.&qf=FORMAT%09Format%09BOOK%09Books" data-rel="external">Kayıp Sembol</a></td>
+     <td>Brown,Dan</td>
+      <td>9789752111929</td>
+      <td>1st ed.</td>
+      <td>2009</td>
+      <td>İstanbul</td>
+      <td>Altın Kitaplar</td>
+      <td>527 p.</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td class="title"><a href="http://katalog.hacettepe.edu.tr/client/en_US/defaulteng/search/detailnonmodal/ent:$002f$002fSD_ILS$002f94$002fSD_ILS:94709/ada?qu=dan+brown&qf=GAUTHOR%09Author%09Brown%2C+Dan.%09Brown%2C+Dan.+%7C%7C+Brown%2C+Dan%2C+1964-%09Brown%2C+Dan%2C+1964-+%7C%7C+Brown%2C+Dan%09Brown%2C+Dan+%7C%7C+Brown%2C+Dan+L.%09Brown%2C+Dan+L.&qf=FORMAT%09Format%09BOOK%09Books" data-rel="external">İhanet Noktası</a></td>
+      <td>Brown,Dan</td>
+      <td>9789752105737</td>
+      <td>3rd ed.</td>
+      <td>2005</td>
+      <td>İstanbul</td>
+      <td>Altın Kitaplar</td>
+      <td>511 p.</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td class="title"><a href="http://katalog.hacettepe.edu.tr/client/en_US/defaulteng/search/detailnonmodal/ent:$002f$002fSD_ILS$002f125$002fSD_ILS:125228/ada?qu=dan+brown&qf=GAUTHOR%09Author%09Brown%2C+Dan.%09Brown%2C+Dan.+%7C%7C+Brown%2C+Dan%2C+1964-%09Brown%2C+Dan%2C+1964-+%7C%7C+Brown%2C+Dan%09Brown%2C+Dan+%7C%7C+Brown%2C+Dan+L.%09Brown%2C+Dan+L.&qf=FORMAT%09Format%09BOOK%09Books" data-rel="external">Melekler ve Şeytanlar</a></td>
+      <td>Brown,Dan</td>
+      <td>9789752110809</td>
+      <td>4th ed.</td>
+      <td>2009</td>
+      <td>İstanbul</td>
+      <td>Altın Kitaplar</td>
+      <td>592 p.</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td class="title"><a href="http://katalog.hacettepe.edu.tr/client/en_US/defaulteng/search/detailnonmodal/ent:$002f$002fSD_ILS$002f96$002fSD_ILS:96319/ada?qu=dan+brown&qf=GAUTHOR%09Author%09Brown%2C+Dan.%09Brown%2C+Dan.+%7C%7C+Brown%2C+Dan%2C+1964-%09Brown%2C+Dan%2C+1964-+%7C%7C+Brown%2C+Dan%09Brown%2C+Dan+%7C%7C+Brown%2C+Dan+L.%09Brown%2C+Dan+L.&qf=FORMAT%09Format%09BOOK%09Books" data-rel="external">Da Vinci Şifresi</a></td>
+     <td>Brown,Dan</td>
+      <td>9789752104037</td>
+      <td>30th ed.</td>
+      <td>2004</td>
+      <td>İstanbul</td>
+      <td>Altın Kitaplar</td>
+      <td>495 p.</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td class="title"><a href="http://katalog.hacettepe.edu.tr/client/en_US/defaulteng/search/detailnonmodal/ent:$002f$002fSD_ILS$002f126$002fSD_ILS:126135/ada?qu=dan+brown&qf=GAUTHOR%09Author%09Brown%2C+Dan.%09Brown%2C+Dan.+%7C%7C+Brown%2C+Dan%2C+1964-%09Brown%2C+Dan%2C+1964-+%7C%7C+Brown%2C+Dan%09Brown%2C+Dan+%7C%7C+Brown%2C+Dan+L.%09Brown%2C+Dan+L.&qf=FORMAT%09Format%09BOOK%09Books" data-rel="external">Dijital Kale</a></td>
+      <td>Brown,Dan</td>
+      <td>978975211653</td>
+      <td>3rd ed.</td>
+      <td>2010</td>
+      <td>Ankara</td>
+      <td>Altın Kitaplar</td>
+      <td>447 p.</td>
+    </tr>
+    
+  </tbody>
+</table>
+
+</body>
+</html>

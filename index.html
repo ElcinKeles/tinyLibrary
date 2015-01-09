@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Dan Brown's Books</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.4.min.css" />
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/jquery.mobile-1.4.4.min.js"></script>
+ <style>
+           h1,h2,h3 {
+   
+               color: #009acd;
+}
+        p, {
+    
+               color: #1c1c1c;
+}        
+ </style> 
+        
+</head>
+<body>
+
+    <center><h1>Welcome..!</h1></center>
+    <center>  <img src="danBrown.jpg" width="300" height="300"></center>
+    <div role="main" class="ui-content">
+<ul data-role="listview" data-inset="true" data-filter="true" data-input="#filter-for-listview">
+    <li><a href="tinyLib.html">Tiny Library</a></li>
+    <li><a href="wikiPic.html">Wiki Says...</a></li>
+    <li><a href="http://en.wikipedia.org/wiki/Dan_Brown">About Dan Brown</a></li>
+    <li><a href="justList.html">Just List</a></li>
+ 
+    
+</ul>
+
+
+    <form class="ui-filterable">
+    <input id="autocomplete-input" data-type="search" placeholder="Search books...">
+</form>
+<ul data-role="listview" data-filter="true" data-filter-reveal="true" data-input="#autocomplete-input" data-inset="true">
+    <li><a href="tinyLib.html">Cehennem</a></li>
+    <li><a href="tinyLib.html">Kayıp Sembol</a></li>
+    <li><a href="tinyLib.html">İhanet Noktası</a></li>
+    <li><a href="tinyLib.html">Melekler ve Şeytanlar</a></li>
+    <li><a href="tinyLib.html">Da Vinci Şifresi</a></li>
+    <li><a href="tinyLib.html">Dijital Kale</a></li>
+</ul>
+</body>
+</html>

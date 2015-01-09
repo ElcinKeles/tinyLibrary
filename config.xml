@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "tr.edu.hacettepe.yunus.elcinkeles12"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- Standart Uygulama Verileri -->
+
+    <name>PhoneGap Test App</name>
+
+    <description>
+        Dan Brown'un Hacettepe Üniversitesi Beytepe Kütüphanesi'nde Bblunan kitaplarıyla ilgili birçok özelliğe erişebileceğiniz bir uygulamadır.
+    </description>
+
+    <author href="http://yunus.hacettepe.edu.tr/~elcin.keles12/" email="elcinkeles1993@gmail.com">
+        Elçin Keleş
+    </author>
+        
+    <!-- Derleme Platformu -->
+        
+    <gap:platform name="android" />
+        
+    <!-- Ek Özellikler -->
+
+    <preference name="orientation" value="landscape" />
+    <preference name="fullscreen" value="false" />
+        
+    <!-- Açılış Ekranı ve İkon -->
+     
+    <icon src="icon.png" />
+   
+        
+    <!-- Uygulama Hakları -->
+    
+    <preference name="permissions" value="none"/>
+        
+</widget>
