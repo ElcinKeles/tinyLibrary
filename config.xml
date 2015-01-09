@@ -7,7 +7,7 @@
 
     <!-- Standart Uygulama Verileri -->
 
-    <name>PhoneGap Test App</name>
+    <name>Tiny Library</name>
 
     <description>
         Dan Brown'un Hacettepe Üniversitesi Beytepe Kütüphanesi'nde Bblunan kitaplarıyla ilgili birçok özelliğe erişebileceğiniz bir uygulamadır.
@@ -28,7 +28,7 @@
         
     <!-- Açılış Ekranı ve İkon -->
      
-    <icon src="icon.png" />
+    <icon src="icon_.png" />
    
         
     <!-- Uygulama Hakları -->
